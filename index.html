@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Lewy pasek -->
+        <nav class="sidebar">
+            <img src="logo.png" alt="Logo restauracji" class="logo">
+
+            <button onclick="showPage('home')">Strona główna</button>
+            <button onclick="showPage('menu')">Dania</button>
+            <button onclick="showPage('rezerwacje')">Rezerwacje</button>
+            <button onclick="showPage('kontakt')">Kontakt</button>
+        </nav>
+
+        <!-- Główna część -->
+        <div class="main-area">
+            <header class="top-bar">
+                <button onclick="window.location.href='login.html'">Logowanie</button>
+                <button onclick="window.location.href='register.html'">Rejestracja</button>
+            </header>
+
+            <main class="content" id="content">
+                <h1>Witamy w Good Food!</h1>
+                <p>Tu znajdziesz najlepsze potrawy w mieście.</p>
+            </main>
+        </div>
+    </div>
+
+
+
+
+
+
+<script src="script.js"></script>
+
+
+
+
+</body>
+</html>
