@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logowanie - Good Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <img src="logo.png" alt="Logo restauracji" class="logo">
+            <h2>Logowanie</h2>
+            <form id="loginForm">
+                <label for="username">Nazwa użytkownika</label>
+                <input type="text" id="username" name="username" placeholder="Wpisz nazwę użytkownika" required>
+
+                <label for="password">Hasło</label>
+                <input type="password" id="password" name="password" placeholder="Wpisz hasło" required>
+
+                <button type="submit">Zaloguj się</button>
+            </form>
+
+            <button type="button" class="back-btn" onclick="window.location.href='index.html'">
+    ← Wróć
+</button>
+
+            <p>Nie masz konta? <a href="register.html">Zarejestruj się</a></p>
+
+            
+
+
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
