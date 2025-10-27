@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Lewy pasek */
+.sidebar {
+    width: 200px;
+    background-color: #006400;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar button {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    color: #006400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sidebar button:hover {
+    background-color: #b4dcb4;
+}
+
+/* Prawa część (nagłówek + treść) */
+.main-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Pasek górny */
+.top-bar {
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.top-bar button {
+    margin-left: 10px;
+    background-color: #006400;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.top-bar button:hover {
+    background-color: #006400;
+}
+
+/* Główna treść */
+.content {
+    flex: 1;
+    padding: 30px;
+    background-color: white;
+}
+
+
+.logo {
+    width: 120px;          /* szerokość logo */
+    margin: 0 auto 30px;   /* wyśrodkowanie i odstęp od przycisków */
+    display: block;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sortowanie {
+    margin-bottom: 15px;
+}
+
+.sortowanie label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.dania-tabela {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+}
+
+.dania-tabela th, .dania-tabela td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.dania-tabela th {
+    background-color: #006400;
+    color: white;
+}
+
+.dania-tabela tr:hover {
+    background-color: #e0ffe0;
+}
+
+
+
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.login-box {
+    background-color: #006400;  /* zielony, taki sam jak sidebar */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    color: white;
+    width: 350px;
+    text-align: center;
+}
+
+.login-box .logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.login-box h2 {
+    margin-bottom: 25px;
+}
+
+.login-box label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: #006400;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #b4dcb4;
+}
+
+.login-box p {
+    margin-top: 15px;
+}
+
+.login-box a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+.back-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #b4dcb4;  /* jaśniejszy zielony */
+    color: #006400;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.back-btn:hover {
+    background-color: #a0d0a0;
+}
